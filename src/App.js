@@ -70,7 +70,7 @@ function App() {
         </tbody>
       </table>
       <div className="pagination">
-      <button disabled={currentPage === 1} onClick={handlePrevious}>
+      <button  onClick={handlePrevious}>
       Previous
       </button>
 
